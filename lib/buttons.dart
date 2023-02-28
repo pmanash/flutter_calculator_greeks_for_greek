@@ -8,7 +8,7 @@ class MyButtons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(padding: EdgeInsets.all(8),
+    return Padding(padding: EdgeInsets.all(5),
       child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Container(
